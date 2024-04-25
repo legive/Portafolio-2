@@ -87,6 +87,10 @@ section.menu {
     line-height: 18.78px;
     text-align: left;
 }
+.menu__title:hover{
+    color: #7fa5d8;
+    cursor: pointer;   
+}
 
 nav {
     display: flex;    
@@ -102,6 +106,10 @@ nav {
 
 .menu__list__item {
     display: block;
+    cursor: pointer;
+}
+.menu__list__item a:hover, .menu__list__item__contato a:hover, .title__network__item a:hover{
+color: #7fa5d8;
 }
 
 .menu__list__item__contato {
@@ -220,6 +228,12 @@ section.title {
 .hobbies__box {
     width: 174px;
     background-color: white;
+}
+.skills__box:hover,
+.hobbies__box:hover, .academic__courses__item__img:hover{
+   
+    background-color:rgba(14, 170, 218, 0.712);
+    cursor: pointer;
 }
 
 .skills__box ul,
@@ -344,6 +358,13 @@ section.experience {
     background-color: #2A7AE4;
     color: white;
 }
+.experience__botao--demo:hover, .experiencia__botao--repo:hover, .formcontato__botao:hover{
+    background-color: rgb(179, 199, 235);
+    cursor: pointer;
+    color:white
+
+}
+
 
 /*Contacto*/
 
